@@ -1,0 +1,43 @@
+Start testing: Dec 09 16:20 中国标准时间
+----------------------------------------------------------
+1/2 Testing: test vector
+1/2 Test: test vector
+Command: "D:/lab/lab/lab/build/TestSTL.exe" "test vector"
+Directory: D:/lab/lab/lab/build
+"test vector" start time: Dec 09 16:20 中国标准时间
+Output:
+----------------------------------------------------------
+Filters: "test vector"
+Randomness seeded to: 2711532235
+===============================================================================
+All tests passed (57 assertions in 1 test case)
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test vector" end time: Dec 09 16:20 中国标准时间
+"test vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test list
+2/2 Test: test list
+Command: "D:/lab/lab/lab/build/TestSTL.exe" "test list"
+Directory: D:/lab/lab/lab/build
+"test list" start time: Dec 09 16:20 中国标准时间
+Output:
+----------------------------------------------------------
+Filters: "test list"
+Randomness seeded to: 800970997
+===============================================================================
+All tests passed (36 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test list" end time: Dec 09 16:20 中国标准时间
+"test list" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 09 16:20 中国标准时间

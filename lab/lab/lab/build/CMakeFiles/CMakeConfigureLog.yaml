@@ -1,0 +1,431 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/ys2/clang64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/lab/lab/lab/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/ys2/clang64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/lab/lab/lab/build/CMakeFiles/3.28.0-rc5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk"
+      binary: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/ys2/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/ys2/clang64/bin/mingw32-make.exe -f Makefile cmTC_d698c/fast
+        D:/ys2/clang64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d698c.dir\\build.make CMakeFiles/cmTC_d698c.dir/build
+        mingw32-make[1]: Entering directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk'
+        Building CXX object CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\ys2\\clang64\\bin\\c++.exe   -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d698c.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_d698c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        clang version 17.0.4
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/ys2/clang64/bin
+         (in-process)
+         "D:/ys2/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk -resource-dir D:/ys2/clang64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_d698c.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -canonical-system-headers -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem D:/ys2/clang64/include/c++/v1 -internal-isystem D:/ys2/clang64/lib/clang/17/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/usr/include -internal-isystem D:/ys2/clang64/include -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fno-implicit-modules -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_d698c.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.28\\\\Modules\\\\CMakeCXXCompilerABI.cpp"
+        clang -cc1 version 17.0.4 based upon LLVM 17.0.4 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/ys2/clang64/include/c++/v1
+         D:/ys2/clang64/lib/clang/17/include
+         D:/ys2/clang64/include
+        End of search list.
+        Linking CXX executable cmTC_d698c.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d698c.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d698c.dir/objects.a
+        D:\\ys2\\clang64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_d698c.dir/objects.a @CMakeFiles\\cmTC_d698c.dir\\objects1.rsp
+        D:\\ys2\\clang64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_d698c.dir/objects.a -Wl,--no-whole-archive -o cmTC_d698c.exe -Wl,--out-implib,libcmTC_d698c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        clang version 17.0.4
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/ys2/clang64/bin
+         "D:/ys2/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_d698c.exe D:/ys2/clang64/lib/crt2.o D:/ys2/clang64/lib/crtbegin.o -LD:/ys2/clang64/x86_64-w64-mingw32/lib -LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib -LD:/ys2/clang64/lib -LD:/ys2/clang64/lib/clang/17/lib/windows --whole-archive "CMakeFiles\\\\cmTC_d698c.dir/objects.a" --no-whole-archive --out-implib libcmTC_d698c.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ys2/clang64/lib/crtend.o
+        mingw32-make[1]: Leaving directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/ys2/clang64/include/c++/v1]
+          add: [D:/ys2/clang64/lib/clang/17/include]
+          add: [D:/ys2/clang64/include]
+        end of search list found
+        collapse include dir [D:/ys2/clang64/include/c++/v1] ==> [D:/ys2/clang64/include/c++/v1]
+        collapse include dir [D:/ys2/clang64/lib/clang/17/include] ==> [D:/ys2/clang64/lib/clang/17/include]
+        collapse include dir [D:/ys2/clang64/include] ==> [D:/ys2/clang64/include]
+        implicit include dirs: [D:/ys2/clang64/include/c++/v1;D:/ys2/clang64/lib/clang/17/include;D:/ys2/clang64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/ys2/clang64/bin/mingw32-make.exe -f Makefile cmTC_d698c/fast]
+        ignore line: [D:/ys2/clang64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d698c.dir\\build.make CMakeFiles/cmTC_d698c.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\ys2\\clang64\\bin\\c++.exe   -std=gnu++20   -v -MD -MT CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d698c.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_d698c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang version 17.0.4]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/ys2/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "D:/ys2/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk -resource-dir D:/ys2/clang64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_d698c.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d698c.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -canonical-system-headers -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem D:/ys2/clang64/include/c++/v1 -internal-isystem D:/ys2/clang64/lib/clang/17/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/usr/include -internal-isystem D:/ys2/clang64/include -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-num8zk -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fno-implicit-modules -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_d698c.dir\\\\CMakeCXXCompilerABI.cpp.obj" -x c++ "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.28\\\\Modules\\\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang -cc1 version 17.0.4 based upon LLVM 17.0.4 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/ys2/clang64/include/c++/v1]
+        ignore line: [ D:/ys2/clang64/lib/clang/17/include]
+        ignore line: [ D:/ys2/clang64/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_d698c.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d698c.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d698c.dir/objects.a]
+        ignore line: [D:\\ys2\\clang64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_d698c.dir/objects.a @CMakeFiles\\cmTC_d698c.dir\\objects1.rsp]
+        ignore line: [D:\\ys2\\clang64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_d698c.dir/objects.a -Wl --no-whole-archive -o cmTC_d698c.exe -Wl --out-implib libcmTC_d698c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [clang version 17.0.4]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/ys2/clang64/bin]
+        link line: [ "D:/ys2/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_d698c.exe D:/ys2/clang64/lib/crt2.o D:/ys2/clang64/lib/crtbegin.o -LD:/ys2/clang64/x86_64-w64-mingw32/lib -LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib -LD:/ys2/clang64/lib -LD:/ys2/clang64/lib/clang/17/lib/windows --whole-archive "CMakeFiles\\\\cmTC_d698c.dir/objects.a" --no-whole-archive --out-implib libcmTC_d698c.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ys2/clang64/lib/crtend.o]
+          arg [D:/ys2/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_d698c.exe] ==> ignore
+          arg [D:/ys2/clang64/lib/crt2.o] ==> obj [D:/ys2/clang64/lib/crt2.o]
+          arg [D:/ys2/clang64/lib/crtbegin.o] ==> obj [D:/ys2/clang64/lib/crtbegin.o]
+          arg [-LD:/ys2/clang64/x86_64-w64-mingw32/lib] ==> dir [D:/ys2/clang64/x86_64-w64-mingw32/lib]
+          arg [-LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LD:/ys2/clang64/lib] ==> dir [D:/ys2/clang64/lib]
+          arg [-LD:/ys2/clang64/lib/clang/17/lib/windows] ==> dir [D:/ys2/clang64/lib/clang/17/lib/windows]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\\\cmTC_d698c.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_d698c.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/ys2/clang64/lib/crtend.o] ==> obj [D:/ys2/clang64/lib/crtend.o]
+        remove lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [D:/ys2/clang64/x86_64-w64-mingw32/lib] ==> [D:/ys2/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib] ==> [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [D:/ys2/clang64/lib] ==> [D:/ys2/clang64/lib]
+        collapse library dir [D:/ys2/clang64/lib/clang/17/lib/windows] ==> [D:/ys2/clang64/lib/clang/17/lib/windows]
+        implicit libs: [c++;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [D:/ys2/clang64/lib/crt2.o;D:/ys2/clang64/lib/crtbegin.o;D:/ys2/clang64/lib/crtend.o]
+        implicit dirs: [D:/ys2/clang64/x86_64-w64-mingw32/lib;D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib;D:/ys2/clang64/lib;D:/ys2/clang64/lib/clang/17/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f"
+      binary: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/ys2/clang64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/ys2/clang64/bin/mingw32-make.exe -f Makefile cmTC_91e82/fast
+        D:/ys2/clang64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_91e82.dir\\build.make CMakeFiles/cmTC_91e82.dir/build
+        mingw32-make[1]: Entering directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f'
+        Building C object CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj
+        D:\\ys2\\clang64\\bin\\cc.exe   -v -MD -MT CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_91e82.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_91e82.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        clang version 17.0.4
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/ys2/clang64/bin
+         (in-process)
+         "D:/ys2/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f -resource-dir D:/ys2/clang64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_91e82.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj -sys-header-deps -canonical-system-headers -internal-isystem D:/ys2/clang64/lib/clang/17/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/usr/include -internal-isystem D:/ys2/clang64/include -fdebug-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_91e82.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.28\\\\Modules\\\\CMakeCCompilerABI.c"
+        clang -cc1 version 17.0.4 based upon LLVM 17.0.4 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/ys2/clang64/lib/clang/17/include
+         D:/ys2/clang64/include
+        End of search list.
+        Linking C executable cmTC_91e82.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_91e82.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_91e82.dir/objects.a
+        D:\\ys2\\clang64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_91e82.dir/objects.a @CMakeFiles\\cmTC_91e82.dir\\objects1.rsp
+        D:\\ys2\\clang64\\bin\\cc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_91e82.dir/objects.a -Wl,--no-whole-archive -o cmTC_91e82.exe -Wl,--out-implib,libcmTC_91e82.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        clang version 17.0.4
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: D:/ys2/clang64/bin
+         "D:/ys2/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_91e82.exe D:/ys2/clang64/lib/crt2.o D:/ys2/clang64/lib/crtbegin.o -LD:/ys2/clang64/x86_64-w64-mingw32/lib -LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib -LD:/ys2/clang64/lib -LD:/ys2/clang64/lib/clang/17/lib/windows --whole-archive "CMakeFiles\\\\cmTC_91e82.dir/objects.a" --no-whole-archive --out-implib libcmTC_91e82.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ys2/clang64/lib/crtend.o
+        mingw32-make[1]: Leaving directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/ys2/clang64/lib/clang/17/include]
+          add: [D:/ys2/clang64/include]
+        end of search list found
+        collapse include dir [D:/ys2/clang64/lib/clang/17/include] ==> [D:/ys2/clang64/lib/clang/17/include]
+        collapse include dir [D:/ys2/clang64/include] ==> [D:/ys2/clang64/include]
+        implicit include dirs: [D:/ys2/clang64/lib/clang/17/include;D:/ys2/clang64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/ys2/clang64/bin/mingw32-make.exe -f Makefile cmTC_91e82/fast]
+        ignore line: [D:/ys2/clang64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_91e82.dir\\build.make CMakeFiles/cmTC_91e82.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f']
+        ignore line: [Building C object CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\ys2\\clang64\\bin\\cc.exe   -v -MD -MT CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_91e82.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_91e82.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [clang version 17.0.4]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/ys2/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "D:/ys2/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f -resource-dir D:/ys2/clang64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_91e82.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_91e82.dir/CMakeCCompilerABI.c.obj -sys-header-deps -canonical-system-headers -internal-isystem D:/ys2/clang64/lib/clang/17/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/include -internal-isystem D:/ys2/clang64/x86_64-w64-mingw32/usr/include -internal-isystem D:/ys2/clang64/include -fdebug-compilation-dir=D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-j6wd5f -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_91e82.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\Program Files\\\\CMake\\\\share\\\\cmake-3.28\\\\Modules\\\\CMakeCCompilerABI.c"]
+        ignore line: [clang -cc1 version 17.0.4 based upon LLVM 17.0.4 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/ys2/clang64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/ys2/clang64/lib/clang/17/include]
+        ignore line: [ D:/ys2/clang64/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_91e82.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_91e82.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_91e82.dir/objects.a]
+        ignore line: [D:\\ys2\\clang64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_91e82.dir/objects.a @CMakeFiles\\cmTC_91e82.dir\\objects1.rsp]
+        ignore line: [D:\\ys2\\clang64\\bin\\cc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_91e82.dir/objects.a -Wl --no-whole-archive -o cmTC_91e82.exe -Wl --out-implib libcmTC_91e82.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [clang version 17.0.4]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: D:/ys2/clang64/bin]
+        link line: [ "D:/ys2/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_91e82.exe D:/ys2/clang64/lib/crt2.o D:/ys2/clang64/lib/crtbegin.o -LD:/ys2/clang64/x86_64-w64-mingw32/lib -LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib -LD:/ys2/clang64/lib -LD:/ys2/clang64/lib/clang/17/lib/windows --whole-archive "CMakeFiles\\\\cmTC_91e82.dir/objects.a" --no-whole-archive --out-implib libcmTC_91e82.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/ys2/clang64/lib/crtend.o]
+          arg [D:/ys2/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_91e82.exe] ==> ignore
+          arg [D:/ys2/clang64/lib/crt2.o] ==> obj [D:/ys2/clang64/lib/crt2.o]
+          arg [D:/ys2/clang64/lib/crtbegin.o] ==> obj [D:/ys2/clang64/lib/crtbegin.o]
+          arg [-LD:/ys2/clang64/x86_64-w64-mingw32/lib] ==> dir [D:/ys2/clang64/x86_64-w64-mingw32/lib]
+          arg [-LD:/ys2/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LD:/ys2/clang64/lib] ==> dir [D:/ys2/clang64/lib]
+          arg [-LD:/ys2/clang64/lib/clang/17/lib/windows] ==> dir [D:/ys2/clang64/lib/clang/17/lib/windows]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\\\cmTC_91e82.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_91e82.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/ys2/clang64/lib/crtend.o] ==> obj [D:/ys2/clang64/lib/crtend.o]
+        remove lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [D:/ys2/clang64/lib/clang/17/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [D:/ys2/clang64/x86_64-w64-mingw32/lib] ==> [D:/ys2/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib] ==> [D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [D:/ys2/clang64/lib] ==> [D:/ys2/clang64/lib]
+        collapse library dir [D:/ys2/clang64/lib/clang/17/lib/windows] ==> [D:/ys2/clang64/lib/clang/17/lib/windows]
+        implicit libs: [mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [D:/ys2/clang64/lib/crt2.o;D:/ys2/clang64/lib/crtbegin.o;D:/ys2/clang64/lib/crtend.o]
+        implicit dirs: [D:/ys2/clang64/x86_64-w64-mingw32/lib;D:/ys2/clang64/x86_64-w64-mingw32/mingw/lib;D:/ys2/clang64/lib;D:/ys2/clang64/lib/clang/17/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "Catch2/CMake/CatchMiscFunctions.cmake:12 (check_cxx_compiler_flag)"
+      - "Catch2/CMake/CatchMiscFunctions.cmake:119 (add_cxx_flag_if_supported_to_targets)"
+      - "Catch2/src/CMakeLists.txt:342 (add_build_reproducibility_settings)"
+    checks:
+      - "Performing Test HAVE_FLAG__ffile_prefix_map_D__lab_lab_lab_Catch2__"
+    directories:
+      source: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-5wd60q"
+      binary: "D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-5wd60q"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/ys2/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/lab/lab/lab/Catch2/extras;D:/lab/lab/lab/Catch2/CMake"
+    buildResult:
+      variable: "HAVE_FLAG__ffile_prefix_map_D__lab_lab_lab_Catch2__"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-5wd60q'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/ys2/clang64/bin/mingw32-make.exe -f Makefile cmTC_f47f5/fast
+        D:/ys2/clang64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f47f5.dir\\build.make CMakeFiles/cmTC_f47f5.dir/build
+        mingw32-make[1]: Entering directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-5wd60q'
+        Building CXX object CMakeFiles/cmTC_f47f5.dir/src.cxx.obj
+        D:\\ys2\\clang64\\bin\\c++.exe -DHAVE_FLAG__ffile_prefix_map_D__lab_lab_lab_Catch2__  -std=gnu++20   -ffile-prefix-map=D:/lab/lab/lab/Catch2/= -MD -MT CMakeFiles/cmTC_f47f5.dir/src.cxx.obj -MF CMakeFiles\\cmTC_f47f5.dir\\src.cxx.obj.d -o CMakeFiles\\cmTC_f47f5.dir\\src.cxx.obj -c D:\\lab\\lab\\lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wd60q\\src.cxx
+        Linking CXX executable cmTC_f47f5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f47f5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f47f5.dir/objects.a
+        D:\\ys2\\clang64\\bin\\llvm-ar.exe qc CMakeFiles\\cmTC_f47f5.dir/objects.a @CMakeFiles\\cmTC_f47f5.dir\\objects1.rsp
+        D:\\ys2\\clang64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_f47f5.dir/objects.a -Wl,--no-whole-archive -o cmTC_f47f5.exe -Wl,--out-implib,libcmTC_f47f5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f47f5.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/lab/lab/lab/build/CMakeFiles/CMakeScratch/TryCompile-5wd60q'
+        
+      exitCode: 0
+...

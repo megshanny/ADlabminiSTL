@@ -1,0 +1,39 @@
+Catch2/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.obj: \
+  D:/lab/lab/lab/Catch2/src/catch2/internal/catch_debugger.cpp \
+  D:/lab/lab/lab/Catch2/src/catch2/../catch2/internal/catch_debugger.hpp \
+  D:/lab/lab/lab/Catch2/src/catch2/../catch2/internal/catch_platform.hpp \
+  D:/lab/lab/lab/Catch2/src/catch2/../catch2/internal/catch_errno_guard.hpp \
+  D:/lab/lab/lab/Catch2/src/catch2/../catch2/internal/catch_stdstreams.hpp \
+  D:/ys2/clang64/include/c++/v1/iosfwd \
+  D:/ys2/clang64/include/c++/v1/__assert \
+  D:/ys2/clang64/include/c++/v1/__config \
+  D:/ys2/clang64/include/c++/v1/__config_site \
+  D:/ys2/clang64/include/c++/v1/__verbose_abort \
+  D:/ys2/clang64/include/c++/v1/__availability \
+  D:/ys2/clang64/include/c++/v1/__fwd/fstream.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/string.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/memory_resource.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/ios.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/istream.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/ostream.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/sstream.h \
+  D:/ys2/clang64/include/c++/v1/__fwd/streambuf.h \
+  D:/ys2/clang64/include/c++/v1/__std_mbstate_t.h \
+  D:/ys2/clang64/include/c++/v1/__mbstate_t.h \
+  D:/ys2/clang64/include/wchar.h D:/ys2/clang64/include/corecrt.h \
+  D:/ys2/clang64/include/_mingw.h D:/ys2/clang64/include/_mingw_mac.h \
+  D:/ys2/clang64/include/_mingw_secapi.h \
+  D:/ys2/clang64/lib/clang/17/include/vadefs.h \
+  D:/ys2/clang64/include/vadefs.h \
+  D:/ys2/clang64/include/sdks/_mingw_ddk.h \
+  D:/ys2/clang64/include/corecrt_stdio_config.h \
+  D:/ys2/clang64/include/corecrt_wstdlib.h \
+  D:/ys2/clang64/include/_mingw_off_t.h \
+  D:/ys2/clang64/include/_mingw_stat64.h \
+  D:/ys2/clang64/include/swprintf.inl \
+  D:/ys2/clang64/include/sec_api/wchar_s.h \
+  D:/ys2/clang64/include/c++/v1/wchar.h \
+  D:/ys2/clang64/include/c++/v1/stddef.h \
+  D:/ys2/clang64/lib/clang/17/include/stddef.h \
+  D:/ys2/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  D:/ys2/clang64/include/c++/v1/version

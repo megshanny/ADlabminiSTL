@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20231212-0825-Experimental"
+	Name="[NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xDA][NON-UTF-8-BYTE-0xD0][NON-UTF-8-BYTE-0xC4][NON-UTF-8-BYTE-0xD0]ĵ[NON-UTF-8-BYTE-0xC4]laptop"
+	Generator="ctest-3.28.0-rc5"
+	CompilerName="D:/ys2/clang64/bin/c++.exe"
+	CompilerVersion="17.0.4"
+	OSName="Windows"
+	Hostname="lollilaptop"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22000)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="8"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="18138"
+	TotalPhysicalMemory="15706"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2096"
+	>
+	<Testing>
+		<StartDateTime>Dec 12 16:25 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartTestTime>1702369548</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 12 16:25 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndTestTime>1702369548</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
